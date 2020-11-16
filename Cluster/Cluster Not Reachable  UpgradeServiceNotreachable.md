@@ -9,11 +9,11 @@
 
 ## Possible Causes
 
+- Expired cluster certificate
 - Cluster is down due to seed node Quorum Loss / ring collapsed - too many seed nodes failed or were brought down at the same time
 - fabric:/System/UpgradeService (Upgrade service) is down
 - fabric:/System/UpgradeService is unable to reach regional Service Fabric Resource Provider (SFRP)
 - TLS 1.0/1.2 was disabled
-- Expired Certificate
 
 ## Mitigation
 
